@@ -67,7 +67,7 @@ Will set nano (if you like it also) as default editor when git will prompt you t
 
 example:
 
-`git config --global alias.s git status`
+`git config --global alias.s status`
 
 Will set an alias (shortcut) for a git command of your choice.
 
