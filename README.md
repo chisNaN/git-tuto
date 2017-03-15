@@ -1,10 +1,10 @@
-#Git tuto
+# Git tuto
 
 >This repo introduces my favorite Git commands. (It can be used also as a tutorial)
 
 :bulb: I recommend to follow the [Atlassian tutorials](https://www.atlassian.com/git/tutorials/) for more detailed explanations.
 
-###Informative operations
+### Informative operations
 
 `git branch -vv`
 
@@ -15,7 +15,7 @@ and if they are synchronized with a remote.
 
 Verbose on remote will show you all remotes name and their URLS.
 
-###Cleaning operations
+### Cleaning operations
 
 `git checkout -f`
 
@@ -33,7 +33,7 @@ Will remove recursively files that keep being tracked in the repo after even tho
 
 Will put in a temporary excluded zone all modified and new files (`git stash apply` to retrieve them).
 
-###Cancelling operations
+### Cancelling operations
 
 `git commit --amend`
 
@@ -43,7 +43,7 @@ Let you modify last comment commit. If the commit was pushed you will have to fo
 
 Let you cancel a merge that can lead to automatically overwritten conflicts for instance.
 
-###Advanced workflow operations
+### Advanced workflow operations
 
 `git rebase -i`
 
@@ -57,7 +57,7 @@ Let you see which commits from your working branch are not present on the master
 
 Let you apply just one commit of another branch instead of merging everything.
 
-###Global config operations
+### Global config operations
 
 `git config --global core.editor nano`
 
