@@ -43,6 +43,10 @@ Let you modify last comment commit. If the commit was pushed you will have to fo
 
 Let you cancel a merge that can lead to automatically overwritten conflicts for instance.
 
+`git reset --hard HEAD^`
+
+Revert to previous commit
+
 ### Advanced workflow operations
 
 `git rebase -i`
