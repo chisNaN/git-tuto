@@ -67,6 +67,10 @@ Let you apply just one commit of another branch instead of merging everything.
 
 Will set nano (if you like it also) as default editor when git will prompt you to insert some text.
 
+`git config --global pull.rebase true`
+
+Will set rebase for pull operations by default
+
 `git config --global alias.YOUR_ALIAS real command`
 
 example:
