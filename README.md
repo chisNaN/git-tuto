@@ -33,6 +33,10 @@ Will remove recursively files that keep being tracked in the repo after even tho
 
 Will put in a temporary excluded zone all modified and new files (`git stash apply` to retrieve them).
 
+`git push remote :remote_branch`
+
+Will delete remote branch.
+
 ### Cancelling operations
 
 `git commit --amend`
