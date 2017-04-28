@@ -87,6 +87,12 @@ Will set an alias (shortcut) for a git command of your choice.
 
 This configuration will correct and execute a wrong typo command after 5 seconds (be careful!).
 
+### Handy commands
+
+`git checkout -`
+
+Will switch to brevious branch
+
 :bulb: Eventually I recommend to use [Smartgit](http://www.syntevo.com/smartgit) as GUI client for 3 reasons:
 
 - It is free
