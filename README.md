@@ -87,6 +87,10 @@ Will set an alias (shortcut) for a git command of your choice.
 
 This configuration will correct and execute a wrong typo command after 5 seconds (be careful!).
 
+`git config --global --edit`
+
+To edit directly with terminal editor your global config
+
 ### Handy commands
 
 `git checkout -`
