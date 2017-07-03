@@ -1,6 +1,6 @@
 # Git tuto
 
->This repo introduces my favorite Git commands. (It can be used also as a tutorial)
+> ## This repo introduces my favorite Git commands. (It can be used also as a tutorial)
 
 :bulb: I recommend to follow the [Atlassian tutorials](https://www.atlassian.com/git/tutorials/) for more detailed explanations.
 
