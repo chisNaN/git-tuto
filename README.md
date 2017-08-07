@@ -15,6 +15,10 @@ and if they are synchronized with a remote.
 
 Verbose on remote will show you all remotes name and their URLS.
 
+`git branch -r`
+
+Will list all remote branches.
+
 ### Cleaning operations
 
 `git checkout -f`
