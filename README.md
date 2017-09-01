@@ -35,7 +35,7 @@ Will remove recursively files that keep being tracked in the repo after even tho
 
 `git stash -u`
 
-Will put in a temporary excluded zone all modified and new files (`git stash apply` to retrieve them).
+Will put in a temporary excluded zone all modified and new files (`git stash pop` to retrieve them).
 
 `git push remote :remote_branch`
 
