@@ -19,6 +19,10 @@ Verbose on remote will show you all remotes name and their URLS.
 
 Will list all remote branches.
 
+`git reflog --format='%C(auto)%h %<|(17)%gd %C(blue)%ci%C(reset) %s'`
+
+Will show you history of your modification since the moment you cloned the repository and made the first change on it.
+
 ### Cleaning operations
 
 `git checkout -f`
