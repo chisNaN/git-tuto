@@ -83,6 +83,10 @@ Will set nano (if you like it also) as default editor when git will prompt you t
 
 Will set rebase for pull operations by default
 
+`git config --global pager.branch false`
+
+Will cancel the behaviour (introduced in version 2.16) where `git branch` outputs the result in your editor instead of the terminal.
+
 `git config --global alias.YOUR_ALIAS real command`
 
 example:
