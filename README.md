@@ -73,6 +73,20 @@ Let you see which commits from your working branch are not present on the master
 
 Let you apply just one commit of another branch instead of merging everything.
 
+### Submodules
+
+`git submodule add https://github.com/user/project`
+
+Will add an imbricated repository to a git project.
+
+`git submodule foreach git pull`
+
+Will pull last state of all submodules from the parent.
+
+`git clone https://github.com/user/project --recursive`
+
+Will clone the master repository and its children.
+
 ### Global config operations
 
 `git config --global core.editor nano`
